@@ -1,7 +1,25 @@
 body{
     margin: 0;
+    padding: 0;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
 }
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(24, 18, 205);
+    font-size: 25px;
+    padding: 30px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.container {
+    margin: 30px auto;
+    max-width: 740px;
+    background-color: var(--white);
+    border-radius: 20px;
+  }
 
 table{
   width: 100%;
