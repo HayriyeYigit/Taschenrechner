@@ -11,6 +11,14 @@
     <div id="resultArea">
     </div>
     <table>
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td onclick="deleteLast()">DEL</td>
+</tr>
+
+
         <tr>
             <td onclick="appendOperation(7)">7</td>
             <td onclick="appendOperation(8)">8</td>
@@ -36,7 +44,7 @@
         <tr>
             <td onclick="appendOperation(0)">0</td>
             <td onclick="appendOperation(' . ')">.</td>
-            <td onlick="calculateResult()" id="result">=</td>
+            <td onclick="calculateResult()" id="result">=</td>
             <td onclick="appendOperation(' - ')" class="highlight">-</td>
         </tr>
     </table>
